@@ -114,7 +114,13 @@ h6,
   font-weight: 500;
   outline: none;
 }
-
+.greeting {
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
   color: var(--primary);
