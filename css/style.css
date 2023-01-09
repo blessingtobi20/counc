@@ -596,5 +596,6 @@ h6,
 @media only screen and (max-width: 600px) {
   #footer {
    display: block;
+   overflow: hidden;
   }
 }
