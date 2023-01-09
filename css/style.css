@@ -614,7 +614,7 @@ h6,
 @media only screen and (max-width: 400px) {
   #footer {
    display: block;
-   overflow: hidden;
+   overflow: hidden; 
   }
 }
 @media only screen and (max-width: 300px) {
@@ -625,7 +625,6 @@ h6,
 }
 @media only screen and (max-width: 600px) {
   .greeting {
-   font-size: 15px;
-   overflow: hidden;
-  }
+   font-size: 10px;
+    }
 }
