@@ -570,7 +570,7 @@ h6,
 #footer .credits {
   font-size: 13px;
   color: #fff;
-  margin-left: 600px;
+ margin-left: 100px;
 }
 
 #footer .social-links a {
@@ -593,17 +593,13 @@ h6,
   color: #fff;
   text-decoration: none;
 }
+
 @media only screen and (max-width: 600px) {
   #footer {
    justify-content: left;
    overflow: hidden;
   }
-  #footer .credits a i{
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-  }
+  
 }
 @media only screen and (max-width: 500px) {
   #footer {
