@@ -94,6 +94,8 @@ var thehours = new Date().getHours();
 
 	$('.greeting').append(themessage);
 
+const year = document.getElementById("year");
+year.textContent = new Date().getFullYear();
 // const form = document.getElementById('form');
 // const result = document.getElementById('result');
 
