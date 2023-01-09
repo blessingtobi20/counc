@@ -623,4 +623,8 @@ h6,
   .greeting {
    font-size: 10px;
     }
+    #footer .credits 
+    {
+      margin-left: auto;
+    }
 }
