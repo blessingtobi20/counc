@@ -167,7 +167,7 @@ h6,
 
 @media (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
-    display: block;
+
     border: none;
     margin-top: 0;
     top: 150%;
@@ -615,7 +615,6 @@ h6,
 
 @media only screen and (max-width: 600px) {
   #footer {
-   display: block;
    overflow: hidden;
   }
   
@@ -668,8 +667,16 @@ h6,
 }
 @media only screen and (max-width: 990px) {
   #footer  {
-   display: block;
    overflow: hidden;
+  }
+  
+}
+@media only screen and (max-width: 720px) {
+  #footer .credits {
+    justify-content: center;
+    justify-items: center;
+    left: 0;
+    right: 0;
   }
   
 }
