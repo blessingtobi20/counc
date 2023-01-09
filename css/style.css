@@ -595,7 +595,37 @@ h6,
 }
 @media only screen and (max-width: 600px) {
   #footer {
+   justify-content: left;
+   overflow: hidden;
+  }
+  #footer .credits a i{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #footer {
    display: block;
+   overflow: hidden;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #footer {
+   display: block;
+   overflow: hidden;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #footer {
+   display: block;
+   overflow: hidden;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .greeting {
+   font-size: 15px;
    overflow: hidden;
   }
 }
