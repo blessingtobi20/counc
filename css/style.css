@@ -120,6 +120,25 @@ h6,
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+@media only screen and (max-width: 500px) {
+  .greeting {
+   font-weight: 600;
+   font-size: 24px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .greeting {
+   font-weight: 600;
+   font-size: 20px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .greeting {
+   font-weight: 600;
+   font-size: 15px;
+  }
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -596,7 +615,7 @@ h6,
 
 @media only screen and (max-width: 600px) {
   #footer {
-   justify-content: left;
+   display: block;
    overflow: hidden;
   }
   
@@ -619,21 +638,38 @@ h6,
    overflow: hidden;
   }
 }
-@media only screen and (max-width: 600px) {
-  .greeting {
-   font-size: 10px;
-    }
-    #footer .credits 
-    {
-      margin-left: auto;
-    }
+@media only screen and (max-width: 700px) {
+  #footer {
+   display: block;
+   overflow: hidden;
+  }
+  
 }
-@media only screen and (max-width: 500px) {
-  .greeting {
-   font-size: 10px;
-    }
-    #footer .credits 
-    {
-      margin-left: auto;
-    }
+@media only screen and (max-width: 800px) {
+  #footer {
+   display: block;
+   overflow: hidden;
+  }
+  
+}
+@media only screen and (max-width: 900px) {
+  #footer {
+   display: block;
+   overflow: hidden;
+  }
+  
+}
+@media only screen and (max-width: 996px) {
+  #footer {
+   display: block;
+   overflow: hidden;
+  }
+  
+}
+@media only screen and (max-width: 990px) {
+  #footer  {
+   display: block;
+   overflow: hidden;
+  }
+  
 }
