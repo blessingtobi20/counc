@@ -238,7 +238,7 @@ h6,
   background-size: cover;
 
   /* Animation properties */
-  animation: slide-image 10s infinite linear;
+  /* animation: slide-image 10s infinite linear; */
 }
 @keyframes slide-image {
   0% {
