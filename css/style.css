@@ -124,20 +124,20 @@ h6,
 }
 @media only screen and (max-width: 500px) {
   .greeting {
-   font-weight: 600;
-   font-size: 24px;
+    font-weight: 600;
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 500px) {
   .greeting {
-   font-weight: 600;
-   font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 390px) {
   .greeting {
-   font-weight: 600;
-   font-size: 15px;
+    font-weight: 600;
+    font-size: 15px;
   }
 }
 .navbar .navbar-nav .nav-link:hover,
@@ -167,7 +167,6 @@ h6,
 
 @media (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
-
     border: none;
     margin-top: 0;
     top: 150%;
@@ -226,10 +225,31 @@ h6,
   }
 }
 
-.page-header {
+/* .page-header {
   background: linear-gradient(rgba(15, 66, 41, 0.6), rgba(15, 66, 41, 0.6)),
     url(https://res.cloudinary.com/ddmratzfr/image/upload/q_auto:low/v1673132363/council/carousel-1_sztsvd.jpg) center center no-repeat;
   background-size: cover;
+} */
+
+.page-header {
+  background: linear-gradient(rgba(15, 66, 41, 0.6), rgba(15, 66, 41, 0.6)),
+    url("https://res.cloudinary.com/ddmratzfr/image/upload/q_auto:low/v1673132363/council/carousel-1_sztsvd.jpg")
+      center center no-repeat;
+  background-size: cover;
+
+  /* Animation properties */
+  animation: slide-image 10s infinite linear;
+}
+@keyframes slide-image {
+  0% {
+    background-image: url("https://res.cloudinary.com/ddmratzfr/image/upload/q_auto:low/v1673132363/council/carousel-1_sztsvd.jpg");
+  }
+  50% {
+    background-image: url("https://res.cloudinary.com/ddmratzfr/image/upload/q_auto:low/v1673132363/council/carousel-2_o28r91.jpg");
+  }
+  100% {
+    background-image: url("https://res.cloudinary.com/ddmratzfr/image/upload/q_auto:low/v1673132363/council/carousel-3_3j31o0.jpg");
+  }
 }
 
 .page-header .breadcrumb-item + .breadcrumb-item::before {
@@ -589,7 +609,7 @@ h6,
 #footer .credits {
   font-size: 13px;
   color: #fff;
- margin-left: 600px;
+  margin-left: 600px;
 }
 
 #footer .social-links a {
@@ -615,61 +635,55 @@ h6,
 
 @media only screen and (max-width: 600px) {
   #footer {
-   overflow: hidden;
+    overflow: hidden;
   }
-  
 }
 @media only screen and (max-width: 500px) {
   #footer {
-   display: block;
-   overflow: hidden;
+    display: block;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 400px) {
   #footer {
-   display: block;
-   overflow: hidden; 
+    display: block;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 300px) {
   #footer {
-   display: block;
-   overflow: hidden;
+    display: block;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 700px) {
   #footer {
-   display: block;
-   overflow: hidden;
+    display: block;
+    overflow: hidden;
   }
-  
 }
 @media only screen and (max-width: 800px) {
   #footer {
-   display: block;
-   overflow: hidden;
+    display: block;
+    overflow: hidden;
   }
-  
 }
 @media only screen and (max-width: 900px) {
   #footer {
-   display: block;
-   overflow: hidden;
+    display: block;
+    overflow: hidden;
   }
-  
 }
 @media only screen and (max-width: 996px) {
   #footer {
-   display: block;
-   overflow: hidden;
+    display: block;
+    overflow: hidden;
   }
-  
 }
 @media only screen and (max-width: 990px) {
-  #footer  {
-   overflow: hidden;
+  #footer {
+    overflow: hidden;
   }
-  
 }
 @media only screen and (max-width: 720px) {
   #footer .credits {
@@ -678,5 +692,4 @@ h6,
     left: 0;
     right: 0;
   }
-  
 }
