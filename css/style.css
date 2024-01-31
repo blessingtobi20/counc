@@ -110,6 +110,7 @@ h6,
   margin-right: 35px;
   padding: 25px 0;
   color: var(--dark);
+  background-color: transparent;
   font-size: 18px;
   font-weight: 500;
   outline: none;
